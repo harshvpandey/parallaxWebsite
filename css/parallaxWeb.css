@@ -1,0 +1,115 @@
+body{
+    height:100%;
+    margin:0;
+    font-size:110%;
+    font-family:"Lato",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+
+a{
+    text-decoration:none;
+    padding:5px;
+    margin: 90px 50px 75px 20px;
+    color:white;
+    
+}
+
+
+.links{
+   
+    font-size:25px;
+    text-align:right;
+    
+    
+}
+
+
+.img1,.img2,.img3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    /*fixed=parallax
+      scroll=normal
+    */
+
+    background-attachment:fixed;
+}
+
+
+
+.img2{
+    background-image:url("../img/mastermind.jpg");
+    min-height:700px; 
+    
+
+ 
+}
+
+.img1{
+    background-image:url('../img/helloFriend.jpg');
+    min-height:700px;
+}
+
+.img3{
+    background-image:url('../img/mr-robot-and-elliot-glitch.jpg');
+    min-height:500px;
+}
+
+.section{
+    text-align:justify;
+    padding:50px 80px;
+}
+
+.section>h2{
+    text-align:center;
+}
+
+
+
+.section-light{
+    background-color:#e9e3e3;
+    color:#666;
+
+}
+
+.section-dark{
+    background-color:#282e34;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:150%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
+
+.ptext .border.trans{
+    background-color:transparent;
+    padding:20px;
+    font-weight: 1000;
+    font-size:200%;
+}
+/*
+This code stops the parallax effect if the width of screen is less than 568 px
+ @media(max-width:568px){
+    .img1,.img2,.img3{
+        background-attachment:scroll;
+    }
+} */
